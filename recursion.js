@@ -3,5 +3,4 @@ function factorial(n) {
     return n * factorial(n-1);
 }
 
-const mm = factorial(5);
-console.log('mm', mm);
+console.log('factorial recursion', factorial(5));
